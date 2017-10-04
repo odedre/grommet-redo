@@ -7270,54 +7270,6 @@
         "mainFile": "src/js/utils/Rest.js",
         "origin": "AUTHORED"
     },
-    "utils/fake-icon": {
-        "files": [
-            {
-                "relativePath": "__tests__/mocks/FakeIcon.js",
-                "test": false,
-                "name": "FakeIcon.js"
-            }
-        ],
-        "mainFile": "__tests__/mocks/FakeIcon.js",
-        "origin": "AUTHORED"
-    },
-    "utils/renderer-finder": {
-        "files": [
-            {
-                "relativePath": "__tests__/utils/renderer-finder.js",
-                "test": false,
-                "name": "renderer-finder.js"
-            }
-        ],
-        "mainFile": "__tests__/utils/renderer-finder.js",
-        "origin": "AUTHORED"
-    },
-    "controls/accordion": {
-        "files": [
-            {
-                "relativePath": "src/js/components/Accordion.js",
-                "test": false,
-                "name": "Accordion.js"
-            },
-            {
-                "relativePath": "__tests__/components/Accordion-test.js",
-                "test": true,
-                "name": "Accordion-test.js"
-            },
-            {
-                "relativePath": "__tests__/components/__snapshots__/Accordion-test.js.snap",
-                "test": true,
-                "name": "Accordion-test.js.snap"
-            },
-            {
-                "relativePath": "src/js/components/AccordionPanel.js",
-                "test": false,
-                "name": "AccordionPanel.js"
-            }
-        ],
-        "mainFile": "src/js/components/Accordion.js",
-        "origin": "AUTHORED"
-    },
     "listing/tiles": {
         "files": [
             {
@@ -7341,7 +7293,159 @@
                 "name": "Tile.js"
             }
         ],
+        "mainFile": "src/js/components/Tiles.js",
+        "origin": "AUTHORED"
+    },
+    "grommet.icons-utils/utils/renderer-finder@1": {
+        "files": [
+            {
+                "relativePath": "__tests__/utils/renderer-finder.js",
+                "test": false,
+                "name": "renderer-finder.js"
+            }
+        ],
+        "mainFile": "__tests__/utils/renderer-finder.js",
+        "origin": "AUTHORED"
+    },
+    "grommet.icons-utils/utils/fake-icon@1": {
+        "files": [
+            {
+                "relativePath": "__tests__/mocks/FakeIcon.js",
+                "test": false,
+                "name": "FakeIcon.js"
+            }
+        ],
+        "mainFile": "__tests__/mocks/FakeIcon.js",
+        "origin": "AUTHORED"
+    },
+    "icons/status": {
+        "files": [
+            {
+                "relativePath": "src/js/components/icons/status/Blank.js",
+                "test": false,
+                "name": "Blank.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/CriticalStatus.js",
+                "test": false,
+                "name": "CriticalStatus.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/Disabled.js",
+                "test": false,
+                "name": "Disabled.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/Label.js",
+                "test": false,
+                "name": "Label.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/OK.js",
+                "test": false,
+                "name": "OK.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/Unknown.js",
+                "test": false,
+                "name": "Unknown.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/status/Warning.js",
+                "test": false,
+                "name": "Warning.js"
+            },
+            {
+                "relativePath": "src/js/components/icons/Status.js",
+                "test": false,
+                "name": "Status.js"
+            }
+        ],
+        "mainFile": "src/js/components/icons/Status.js",
+        "origin": "AUTHORED"
+    },
+    "controls/accordion": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Accordion.js",
+                "test": false,
+                "name": "Accordion.js"
+            },
+            {
+                "relativePath": "__tests__/components/Accordion-test.js",
+                "test": true,
+                "name": "Accordion-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Accordion-test.js.snap",
+                "test": true,
+                "name": "Accordion-test.js.snap"
+            },
+            {
+                "relativePath": "__tests__/components/Collapsible-test.js",
+                "test": true,
+                "name": "Collapsible-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Collapsible-test.js.snap",
+                "test": true,
+                "name": "Collapsible-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/AccordionPanel.js",
+                "test": false,
+                "name": "AccordionPanel.js"
+            },
+            {
+                "relativePath": "src/js/components/Collapsible.js",
+                "test": false,
+                "name": "Collapsible.js"
+            }
+        ],
+        "mainFile": "src/js/components/Accordion.js",
+        "origin": "AUTHORED"
+    },
+    "internal/skip-links": {
+        "files": [
+            {
+                "relativePath": "src/js/components/SkipLinks.js",
+                "test": false,
+                "name": "SkipLinks.js"
+            },
+            {
+                "relativePath": "__tests__/components/SkipLinks-test.js",
+                "test": true,
+                "name": "SkipLinks-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/SkipLinks-test.js.snap",
+                "test": true,
+                "name": "SkipLinks-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/SkipLinks.js",
+        "origin": "AUTHORED"
+    },
+    "internal/skip-link-anchor": {
+        "files": [
+            {
+                "relativePath": "src/js/components/SkipLinkAnchor.js",
+                "test": false,
+                "name": "SkipLinkAnchor.js"
+            }
+        ],
+        "mainFile": "src/js/components/SkipLinkAnchor.js",
+        "origin": "AUTHORED"
+    },
+    "internal/formatted-message": {
+        "files": [
+            {
+                "relativePath": "src/js/components/FormattedMessage.js",
+                "test": false,
+                "name": "FormattedMessage.js"
+            }
+        ],
         "origin": "AUTHORED",
-        "mainFile": "src/js/components/Tiles.js"
+        "mainFile": "src/js/components/FormattedMessage.js"
     }
 }
