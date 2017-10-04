@@ -6321,27 +6321,6 @@
         "mainFile": "src/js/components/Title.js",
         "origin": "AUTHORED"
     },
-    "controls/accordion": {
-        "files": [
-            {
-                "relativePath": "src/js/components/Accordion.js",
-                "test": false,
-                "name": "Accordion.js"
-            },
-            {
-                "relativePath": "__tests__/components/Accordion-test.js",
-                "test": true,
-                "name": "Accordion-test.js"
-            },
-            {
-                "relativePath": "__tests__/components/__snapshots__/Accordion-test.js.snap",
-                "test": false,
-                "name": "Accordion-test.js.snap"
-            }
-        ],
-        "mainFile": "src/js/components/Accordion.js",
-        "origin": "AUTHORED"
-    },
     "components/anchor": {
         "files": [
             {
@@ -6757,6 +6736,588 @@
         "mainFile": "src/js/components/TableHeader.js",
         "origin": "AUTHORED"
     },
+    "visualization/chart": {
+        "files": [
+            {
+                "relativePath": "src/js/components/chart/Area.js",
+                "test": false,
+                "name": "Area.js"
+            },
+            {
+                "relativePath": "__tests__/components/Chart-test.js",
+                "test": true,
+                "name": "Chart-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Chart-test.js.snap",
+                "test": true,
+                "name": "Chart-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/chart/Axis.js",
+                "test": false,
+                "name": "Axis.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Bar.js",
+                "test": false,
+                "name": "Bar.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Base.js",
+                "test": false,
+                "name": "Base.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Chart.js",
+                "test": false,
+                "name": "Chart.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Graph.js",
+                "test": false,
+                "name": "Graph.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Grid.js",
+                "test": false,
+                "name": "Grid.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/HotSpots.js",
+                "test": false,
+                "name": "HotSpots.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Layers.js",
+                "test": false,
+                "name": "Layers.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Line.js",
+                "test": false,
+                "name": "Line.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Marker.js",
+                "test": false,
+                "name": "Marker.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/MarkerLabel.js",
+                "test": false,
+                "name": "MarkerLabel.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/normalize.js",
+                "test": false,
+                "name": "normalize.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/Range.js",
+                "test": false,
+                "name": "Range.js"
+            },
+            {
+                "relativePath": "src/js/components/chart/utils.js",
+                "test": false,
+                "name": "utils.js"
+            }
+        ],
+        "mainFile": "src/js/components/chart/index.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/distribution": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Distribution.js",
+                "test": false,
+                "name": "Distribution.js"
+            },
+            {
+                "relativePath": "__tests__/components/Distribution-test.js",
+                "test": true,
+                "name": "Distribution-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Distribution-test.js.snap",
+                "test": true,
+                "name": "Distribution-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Distribution.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/legend": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Legend.js",
+                "test": false,
+                "name": "Legend.js"
+            },
+            {
+                "relativePath": "__tests__/components/Legend-test.js",
+                "test": true,
+                "name": "Legend-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Legend-test.js.snap",
+                "test": true,
+                "name": "Legend-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Legend.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/map": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Map.js",
+                "test": false,
+                "name": "Map.js"
+            },
+            {
+                "relativePath": "__tests__/components/Map-test.js",
+                "test": true,
+                "name": "Map-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Map-test.js.snap",
+                "test": true,
+                "name": "Map-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Map.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/sun-burst": {
+        "files": [
+            {
+                "relativePath": "src/js/components/SunBurst.js",
+                "test": false,
+                "name": "SunBurst.js"
+            },
+            {
+                "relativePath": "__tests__/components/SunBurst-test.js",
+                "test": true,
+                "name": "SunBurst-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/SunBurst-test.js.snap",
+                "test": true,
+                "name": "SunBurst-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/SunBurst.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/topology": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Topology.js",
+                "test": false,
+                "name": "Topology.js"
+            },
+            {
+                "relativePath": "__tests__/components/Topology-test.js",
+                "test": true,
+                "name": "Topology-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Topology-test.js.snap",
+                "test": true,
+                "name": "Topology-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Topology.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/world-map": {
+        "files": [
+            {
+                "relativePath": "src/js/components/WorldMap.js",
+                "test": false,
+                "name": "WorldMap.js"
+            },
+            {
+                "relativePath": "__tests__/components/WorldMap-test.js",
+                "test": true,
+                "name": "WorldMap-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/WorldMap-test.js.snap",
+                "test": true,
+                "name": "WorldMap-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/WorldMap.js",
+        "origin": "AUTHORED"
+    },
+    "visualization/meter": {
+        "files": [
+            {
+                "relativePath": "src/js/components/meter/Arc.js",
+                "test": false,
+                "name": "Arc.js"
+            },
+            {
+                "relativePath": "__tests__/components/Meter-test.js",
+                "test": true,
+                "name": "Meter-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Meter-test.js.snap",
+                "test": true,
+                "name": "Meter-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/meter/Bar.js",
+                "test": false,
+                "name": "Bar.js"
+            },
+            {
+                "relativePath": "src/js/components/meter/Circle.js",
+                "test": false,
+                "name": "Circle.js"
+            },
+            {
+                "relativePath": "src/js/components/meter/Graphic.js",
+                "test": false,
+                "name": "Graphic.js"
+            },
+            {
+                "relativePath": "src/js/components/meter/propTypes.js",
+                "test": false,
+                "name": "propTypes.js"
+            },
+            {
+                "relativePath": "src/js/components/meter/Spiral.js",
+                "test": false,
+                "name": "Spiral.js"
+            },
+            {
+                "relativePath": "src/js/components/meter/utils.js",
+                "test": false,
+                "name": "utils.js"
+            },
+            {
+                "relativePath": "src/js/components/Meter.js",
+                "test": false,
+                "name": "Meter.js"
+            }
+        ],
+        "mainFile": "src/js/components/Meter.js",
+        "origin": "AUTHORED"
+    },
+    "icons/pulse": {
+        "files": [
+            {
+                "relativePath": "src/js/components/icons/Pulse.js",
+                "test": false,
+                "name": "Pulse.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/Pulse-test.js",
+                "test": true,
+                "name": "Pulse-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/__snapshots__/Pulse-test.js.snap",
+                "test": true,
+                "name": "Pulse-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/icons/Pulse.js",
+        "origin": "AUTHORED"
+    },
+    "icons/spinning": {
+        "files": [
+            {
+                "relativePath": "src/js/components/icons/Spinning.js",
+                "test": false,
+                "name": "Spinning.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/Spinning-test.js",
+                "test": true,
+                "name": "Spinning-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/__snapshots__/Spinning-test.js.snap",
+                "test": true,
+                "name": "Spinning-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/icons/Spinning.js",
+        "origin": "AUTHORED"
+    },
+    "icons/social-share": {
+        "files": [
+            {
+                "relativePath": "src/js/components/SocialShare.js",
+                "test": false,
+                "name": "SocialShare.js"
+            },
+            {
+                "relativePath": "__tests__/components/SocialShare-test.js",
+                "test": true,
+                "name": "SocialShare-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/SocialShare-test.js.snap",
+                "test": true,
+                "name": "SocialShare-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/SocialShare.js",
+        "origin": "AUTHORED"
+    },
+    "icons/icon": {
+        "files": [
+            {
+                "relativePath": "src/js/components/icons/Grommet.js",
+                "test": false,
+                "name": "Grommet.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/Grommet-test.js",
+                "test": true,
+                "name": "Grommet-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/icons/__snapshots__/Grommet-test.js.snap",
+                "test": true,
+                "name": "Grommet-test.js.snap"
+            },
+            {
+                "relativePath": "__tests__/components/SVGIcon-test.js",
+                "test": true,
+                "name": "SVGIcon-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/SVGIcon-test.js.snap",
+                "test": true,
+                "name": "SVGIcon-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/icons/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/js/components/SVGIcon.js",
+                "test": false,
+                "name": "SVGIcon.js"
+            }
+        ],
+        "mainFile": "src/js/components/SVGIcon.js",
+        "origin": "AUTHORED"
+    },
+    "media/carousel": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Carousel.js",
+                "test": false,
+                "name": "Carousel.js"
+            },
+            {
+                "relativePath": "__tests__/components/Carousel-test.js",
+                "test": true,
+                "name": "Carousel-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Carousel-test.js.snap",
+                "test": true,
+                "name": "Carousel-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Carousel.js",
+        "origin": "AUTHORED"
+    },
+    "media/image": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Image.js",
+                "test": false,
+                "name": "Image.js"
+            },
+            {
+                "relativePath": "__tests__/components/Image-test.js",
+                "test": true,
+                "name": "Image-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Image-test.js.snap",
+                "test": true,
+                "name": "Image-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Image.js",
+        "origin": "AUTHORED"
+    },
+    "media/video": {
+        "files": [
+            {
+                "relativePath": "src/js/components/video/Controls.js",
+                "test": false,
+                "name": "Controls.js"
+            },
+            {
+                "relativePath": "__tests__/components/Video-test.js",
+                "test": true,
+                "name": "Video-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Video-test.js.snap",
+                "test": true,
+                "name": "Video-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/video/FullscreenButton.js",
+                "test": false,
+                "name": "FullscreenButton.js"
+            },
+            {
+                "relativePath": "src/js/components/video/Overlay.js",
+                "test": false,
+                "name": "Overlay.js"
+            },
+            {
+                "relativePath": "src/js/components/video/PlayButton.js",
+                "test": false,
+                "name": "PlayButton.js"
+            },
+            {
+                "relativePath": "src/js/components/video/ProgressBar.js",
+                "test": false,
+                "name": "ProgressBar.js"
+            },
+            {
+                "relativePath": "src/js/components/video/Share.js",
+                "test": false,
+                "name": "Share.js"
+            },
+            {
+                "relativePath": "src/js/components/video/Time.js",
+                "test": false,
+                "name": "Time.js"
+            },
+            {
+                "relativePath": "src/js/components/Video.js",
+                "test": false,
+                "name": "Video.js"
+            }
+        ],
+        "mainFile": "src/js/components/Video.js",
+        "origin": "AUTHORED"
+    },
+    "utils/announcer": {
+        "files": [
+            {
+                "relativePath": "src/js/utils/Announcer.js",
+                "test": false,
+                "name": "Announcer.js"
+            }
+        ],
+        "mainFile": "src/js/utils/Announcer.js",
+        "origin": "AUTHORED"
+    },
+    "utils/animate": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Animate.js",
+                "test": false,
+                "name": "Animate.js"
+            },
+            {
+                "relativePath": "__tests__/components/Animate-test.js",
+                "test": true,
+                "name": "Animate-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Animate-test.js.snap",
+                "test": true,
+                "name": "Animate-test.js.snap"
+            }
+        ],
+        "mainFile": "src/js/components/Animate.js",
+        "origin": "AUTHORED"
+    },
+    "utils/responsive": {
+        "files": [
+            {
+                "relativePath": "src/js/utils/Responsive.js",
+                "test": false,
+                "name": "Responsive.js"
+            }
+        ],
+        "mainFile": "src/js/utils/Responsive.js",
+        "origin": "AUTHORED"
+    },
+    "utils/rest": {
+        "files": [
+            {
+                "relativePath": "src/js/utils/Rest.js",
+                "test": false,
+                "name": "Rest.js"
+            }
+        ],
+        "mainFile": "src/js/utils/Rest.js",
+        "origin": "AUTHORED"
+    },
+    "utils/fake-icon": {
+        "files": [
+            {
+                "relativePath": "__tests__/mocks/FakeIcon.js",
+                "test": false,
+                "name": "FakeIcon.js"
+            }
+        ],
+        "mainFile": "__tests__/mocks/FakeIcon.js",
+        "origin": "AUTHORED"
+    },
+    "utils/renderer-finder": {
+        "files": [
+            {
+                "relativePath": "__tests__/utils/renderer-finder.js",
+                "test": false,
+                "name": "renderer-finder.js"
+            }
+        ],
+        "mainFile": "__tests__/utils/renderer-finder.js",
+        "origin": "AUTHORED"
+    },
+    "controls/accordion": {
+        "files": [
+            {
+                "relativePath": "src/js/components/Accordion.js",
+                "test": false,
+                "name": "Accordion.js"
+            },
+            {
+                "relativePath": "__tests__/components/Accordion-test.js",
+                "test": true,
+                "name": "Accordion-test.js"
+            },
+            {
+                "relativePath": "__tests__/components/__snapshots__/Accordion-test.js.snap",
+                "test": true,
+                "name": "Accordion-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/AccordionPanel.js",
+                "test": false,
+                "name": "AccordionPanel.js"
+            }
+        ],
+        "mainFile": "src/js/components/Accordion.js",
+        "origin": "AUTHORED"
+    },
     "listing/tiles": {
         "files": [
             {
@@ -6771,8 +7332,13 @@
             },
             {
                 "relativePath": "__tests__/components/__snapshots__/Tiles-test.js.snap",
-                "test": false,
+                "test": true,
                 "name": "Tiles-test.js.snap"
+            },
+            {
+                "relativePath": "src/js/components/Tile.js",
+                "test": false,
+                "name": "Tile.js"
             }
         ],
         "origin": "AUTHORED",
